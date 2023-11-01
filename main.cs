@@ -56,7 +56,7 @@ namespace SpeedTest
         }
         static void Main(string[] args)
         {
-
+            Console.Clear();
             Console.WriteLine("#################################################################");
             Console.WriteLine("     Author: LeZi");
             Console.WriteLine("     ");
