@@ -109,7 +109,7 @@ namespace SpeedTest
                 Console.WriteLine($"[{tables.IndexOf(table) + 1}]. {table.Answer}\n");
                 Console.Write($"A.{table.Options[0]} B.{table.Options[1]} C.{table.Options[2]} D.{table.Options[3]}\n");
             });
-
+            Console.ReadKey();
         }
     }
 }
